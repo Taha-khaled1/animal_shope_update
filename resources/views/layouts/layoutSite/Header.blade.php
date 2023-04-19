@@ -191,7 +191,7 @@
                                     </ul>
                                 </li>
                                 <li><a href="{{route('products')}}">{{__('Our products')}}</a></li>
-                                <li><a href="{{route('about')}}">{{__('About Us')}}</a></li> 
+                                <li><a href="{{route('about')}}"> {{__('About Us')}}</a></li> 
                                 
                             </ul>
                         </nav>

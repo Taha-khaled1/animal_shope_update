@@ -58,6 +58,8 @@
                             </div>
                             <!-- Cart Update Option -->
                             <div class="cart-update-option d-block d-md-flex justify-content-between">
+
+
                                 <div class="apply-coupon-wrapper">
                                 <label class="form-check-label" for="input-discount-code">
                                   {{__('Do you have a discount code?')}}
@@ -68,6 +70,8 @@
                                     </p> 
                                         <input type="text" name="code" total="{{$cart->total()}}" class="form-control" maxlength="100" required placeholder="{{__('Enter the discount code')}} " >
                                     </div>
+
+                                    
                                 <div class="cart-update">
                                 <a class="btn btn-sqr" href="{{route('cartempty')}}" >{{__('Empty the cart')}}</a>
  
